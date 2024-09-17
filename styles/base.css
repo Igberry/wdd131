@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=PT+Serif&display=swap');
+
+body {
+	background-color: white;
+}
+
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+	border-radius: 15px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	background-color: grey;
+	padding: 2.5rem;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin: 8px;
+}
+
+nav a:hover {
+	text-decoration: overline;
+	color: black;
+	background-color: skyblue;
+}
+
+main {
+	display: grid;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#card {
+	border-radius: 8px;
+	width: fit-content;
+	height: fit-content;
+	text-align: center;
+	margin: 0 auto;
+}
+
+img {
+	width: 200px;
+	height: auto;
+	border-radius: 30px;
+	gap: 100px;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+h1 {
+	text-align: center;
+	background-color: #36454f;
+	color: #fff;
+	border-radius: 30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	font-size: larger;
+	background-color: #36454f;
+	border-radius: 30px;
+	color: #fff;
+
+}
+
+#resourcelinks {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+	border-radius: 15px;
+}
+
+#resourcelinks a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 2.3rem;
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: grey;
+	border-radius: 15px;
+	margin: 8px;
+}
+
+#resourcelinks a:hover {
+	text-decoration: overline;
+	color: black;
+	background-color: skyblue;
+}
+
+#resourcelinks ul {
+	list-style-type: none;
+	padding-right: 30px;
+	height: fit-content;
+}
+
+footer {
+	background-color: #36454f;
+	text-align: center;
+	color: #fff;
+}
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+
+	.resourcelinks ul {
+		display: flex;
+	}
+
+}
