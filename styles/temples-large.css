@@ -12,4 +12,16 @@
     main {
         max-width: 1200px; 
     }
+
+    .hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+
+    nav ul {
+        display: flex; /* Show normal nav links */
+    }
+
+    header {
+        gap: 900px;
+    }
 }

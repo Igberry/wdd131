@@ -13,7 +13,7 @@ hamburgerButton.classList.add('hamburger');
 hamburgerButton.innerHTML = '&#9776;'; // Unicode for hamburger icon
 document.querySelector('header').appendChild(hamburgerButton);
 
-const navMenu = document.querySelector('nav');
+const navMenu = document.querySelector('nav ul');
 
 hamburgerButton.addEventListener('click', () => {
     navMenu.classList.toggle('active');

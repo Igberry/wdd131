@@ -11,16 +11,24 @@ body {
 }
 
 header {
-    background-color: #4a90e2;
+    background-color: rgb(4, 4, 56);
     color: white;
     padding: 1rem;
     text-align: center;
+    max-width: 100%;
+    display: flex;
 }
+
+h1 {
+    text-align: left;
+}
+
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-top: 0.5rem;
+    text-align: right;
 }
 
 nav ul {
@@ -44,7 +52,8 @@ nav a:hover {
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem; 
     justify-items: center; 
     max-width: 1200px;
@@ -54,7 +63,7 @@ main {
 
 h2 {
     text-align: center;
-    margin: 50px;
+    margin: 20px;
 }
 
 figure {
@@ -66,13 +75,13 @@ figcaption {
 }
 
 img {
-    width: 100%;
+    width: 300px;
     height: auto;
 }
 
 footer {
     text-align: center;
-    background-color: #4a90e2;
+    background-color: rgb(4, 4, 56);
     color: white;
     padding: 1rem;
 }
@@ -83,5 +92,16 @@ footer {
         display: grid;
         grid-template-columns: 1fr; 
         gap: 1rem;
+    }
+    nav {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        align-self: right;
+        text-align: right;
+    }
+    header {
+        gap: 200px;
     }
 }
