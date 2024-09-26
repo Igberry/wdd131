@@ -98,7 +98,6 @@ footer {
     }
     .hamburger {
         display: flex;
-        align-self: right;
         text-align: right;
     }
     header {
