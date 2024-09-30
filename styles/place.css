@@ -84,7 +84,6 @@ h2 {
 }
 
 h2::after {
-    content: " 🌍"; /* Emoji to represent the earth */
     font-size: 1.2em; /* Slightly larger than the heading */
     vertical-align: middle; /* Align with text */
 }
@@ -93,6 +92,11 @@ h2::after {
     margin: 5px 0;
     font-size: 1.1em;
     color: black;
+}
+
+.weather img {
+    width: 40px;
+    height: auto;
 }
 
 /* Media Queries */

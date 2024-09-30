@@ -12,41 +12,45 @@
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
 </head>
-<header>
-    <h1>Nigeria</h1>
-</header>
+
 <body>
-    <!-- Hero Section with Weather and Country Data -->
-    <div class="hero">
-        <picture>
-            <source media="(min-width: 1024px)" srcset="images/nige.jpg">
-            <source media="(max-width: 600px)" srcset="images/nigeria3.jpg">
-            <img src="images/nigeria.jpg" alt="Hero Image" class="hero-img">
-        </picture>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <!-- Hero Section with Weather and Country Data -->
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="images/nige.webp">
+                <source media="(max-width: 600px)" srcset="images/nigeria3.webp">
+                <img src="images/nigeria.webp" alt="Hero Image" class="hero-img">
+            </picture>
 
-        <div class="overlay">
-            <!-- Country Data Section -->
-            <section class="country-data">
-                <h2>Data Information</h2>
-                <p><strong>Area:</strong> <span id="area">923,768 km²</span></p>
-                <p><strong>Population:</strong> <span id="population">223 million</span></p>
-                <p><strong>Capital:</strong> <span id="capital">Abuja</span></p>
-                <p><strong>Languages:</strong> <span id="languages">English (official), Hausa, Yoruba, Igbo</span></p>
-                <p><strong>Currency:</strong> <span id="currency">Naira (₦)</span></p>
-                <p><strong>Time Zone:</strong> <span id="time-zone">West Africa Time (WAT, UTC +1)</span></p>
-                <p><strong>Calling Code:</strong> <span id="calling-code">+234</span></p>
-                <p><strong>Internet TLD:</strong> <span id="internet-tld">.ng</span></p>
-            </section>
-            <!-- Weather Section -->
-            <section class="weather">
-                <h2>Weather <span class="weather-icon">⛅</span></h2>
-                <p><strong>Temperature:</strong> <span id="temperature">24°C</span></p>
-                <p><strong>Wind Speed:</strong> <span id="wind-speed">5 km/h</span></p>
-                <p><strong>Wind Chill:</strong> <span id="wind-chill">20°C</span></p>
-            </section>
+            <div class="overlay">
+                <!-- Country Data Section -->
+                <section class="country-data">
+                    <h2>Data Information</h2>
+                    <p><strong>Area:</strong> <span id="area">923,768 km²</span></p>
+                    <p><strong>Population:</strong> <span id="population">223 million</span></p>
+                    <p><strong>Capital:</strong> <span id="capital">Abuja</span></p>
+                    <p><strong>Languages:</strong> <span id="languages">English (official), Hausa, Yoruba, Igbo</span></p>
+                    <p><strong>Currency:</strong> <span id="currency">Naira (₦)</span></p>
+                    <p><strong>Time Zone:</strong> <span id="time-zone">West Africa Time (WAT, UTC +1)</span></p>
+                    <p><strong>Calling Code:</strong> <span id="calling-code">+234</span></p>
+                    <p><strong>Internet TLD:</strong> <span id="internet-tld">.ng</span></p>
+                </section>
+                <!-- Weather Section -->
+                <section class="weather">
+                    <h2>Weather <span class="weather-icon"></span>
+                        <img src="images/iconsvg.svg" alt="weather icon">
+                    </h2>
+                    <p><strong>Temperature:</strong> <span id="temperature">24°C</span></p>
+                    <p><strong>Wind Speed:</strong> <span id="wind-speed">5 km/h</span></p>
+                    <p><strong>Wind Chill:</strong> <span id="wind-chill">20°C</span></p>
+                </section>
+            </div>
         </div>
-    </div>
-
+    </main>
     <footer>
         <p>&copy; <span id="current-year"></span> Nigeria Info</p>
         <p>David Chukwudi Igberi - WDD131 - Dynamic Web Fundamentals</p>
