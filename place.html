@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nigeria - Data & Weather</title>
+    <meta name="description" content="WDD131-Dynamic Web Fundamentals-Place Assignment">
+    <meta name="author" content="David Chukwudi Igberi">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/nig.jpg" type="image/jpg"> 
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
 </head>
+<header>
+    <h1>Nigeria</h1>
+</header>
 <body>
-    <header>
-        <h1>Nigeria</h1>
-    </header>
-
     <!-- Hero Section with Weather and Country Data -->
-    <section class="hero">
+    <div class="hero">
         <picture>
             <source media="(min-width: 1024px)" srcset="images/nige.jpg">
             <source media="(max-width: 600px)" srcset="images/nigeria3.jpg">
@@ -43,7 +45,7 @@
                 <p><strong>Wind Chill:</strong> <span id="wind-chill">20°C</span></p>
             </section>
         </div>
-    </section>
+    </div>
 
     <footer>
         <p>&copy; <span id="current-year"></span> Nigeria Info</p>

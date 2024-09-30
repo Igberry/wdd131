@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #006400; /* Main color for your design */
+    --secondary-color: rgba(255, 255, 255, 0.9); /* Secondary color for backgrounds */
+}
 /* Base Styles */
 body {
     font-family: Arial, sans-serif;
@@ -77,6 +81,12 @@ h1 {
 h2 {
     color: #006400;
     text-align: center;
+}
+
+h2::after {
+    content: " 🌍"; /* Emoji to represent the earth */
+    font-size: 1.2em; /* Slightly larger than the heading */
+    vertical-align: middle; /* Align with text */
 }
 
 .weather p, .country-data p {
