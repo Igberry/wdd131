@@ -5,17 +5,6 @@
     #templeContainer {
       grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
     }
-    main {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-        gap: 1.5rem;
-    }
-
-    
-    main {
-        max-width: 1200px; 
-    }
-
     .hamburger {
         display: none; /* Hide hamburger on larger screens */
     }
