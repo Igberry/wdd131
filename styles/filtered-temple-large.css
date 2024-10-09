@@ -1,0 +1,55 @@
+@import url('filtered-temple.css');
+
+
+@media (min-width: 769px) {
+    #templeContainer {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+        gap: 1.5rem;
+    }
+
+    
+    main {
+        max-width: 1200px; 
+    }
+
+    .hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+
+    header nav {
+        background-color: transparent; /* Make nav background transparent */
+    }
+      
+    header nav a {
+        margin-left: 15px; /* Space between nav links */
+        margin-right: 5px;
+        color: white; /* Blue text color for links */
+        border-radius: 5px;
+        text-decoration: none; /* Remove underline */
+        font-weight: lighter; /* Bold text */
+        font-size: 1.5rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+      
+    header nav a:hover {
+        text-decoration: wavy; /* Underline on hover */
+        color: white;
+        background-color: brown;
+    }
+
+    header {
+        gap: 900px;
+    }
+    nav button {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}
+    
+    
+    
