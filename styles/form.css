@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+}
+h2 {
+    color: #fff;
+}
+
+fieldset p {
+    color: #fff;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    background: black;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #fff;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; /* Align the legend to the left */
+    color: #fff;
+}
+
+/* Horizontal rating stars with checkboxes below */
+.rating {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.rating label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Align checkboxes beside each feature */
+fieldset label {
+    display: inline-block;          /* Use flexbox to align the checkbox and label text */
+    margin-bottom: 10px;    /* Space between each checkbox and label */
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    background-color: black;
+    padding: 5px;
+
+}
