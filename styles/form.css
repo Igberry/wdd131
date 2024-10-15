@@ -41,14 +41,16 @@ input, select, textarea {
 }
 
 input[type="submit"] {
-    background-color: #28a745;
-    color: white;
+    background-color: yellow;
+    color:  black;
+    font-weight: bold;
     border: none;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
     background-color: #218838;
+    color: #fff;
 }
 
 fieldset {
