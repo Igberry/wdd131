@@ -46,13 +46,17 @@ nav {
   
 .nav-links a {
     color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 7px;
     font-weight: bold;
     text-decoration: none;
     font-size: 1rem;
 }
   
 .nav-links a:hover {
-    color: #f1c40f;
+    color: white;
+    background-color: black;
 }
   
 .hamburger {
@@ -110,7 +114,7 @@ nav {
 }
   
 #explore-btn {
-    background-color: #3498db;
+    background-color: #f1c40f;
     color: black;
     padding: 1rem 2rem;
     font-weight: bold;
@@ -126,18 +130,18 @@ nav {
     margin-top: 20px;
 }
 .apply a {
-    background-color: #3498db;
+    background-color: #f1c40f;
     color: black;
     font-weight: bold;
     padding: 20px;
     border-radius: 5px;
 }
 .apply :hover {
-    background-color: #f1c40f;
+    background-color: white;
 }
   
 #explore-btn:hover {
-    background-color: #f1c40f;
+    background-color: white;
 }
   
   /* Courses Section */
@@ -213,7 +217,8 @@ nav {
 }
   
 .contact button:hover {
-    background-color: #f1c40f;
+    background-color: black;
+    color: white;
 }
   
   /* Footer */

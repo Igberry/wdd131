@@ -40,6 +40,9 @@ nav {
   
 .nav-links a {
     color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 7px;
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
@@ -47,7 +50,8 @@ nav {
 }
   
 .nav-links a:hover {
-    color: #f1c40f;
+    color: white;
+    background-color: black;
 }
   
 .hamburger {
