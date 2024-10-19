@@ -281,7 +281,8 @@ footer {
 }
 
 .registration-form button:hover {
-    background-color: #f1c40f;
+    background-color: black;
+    color: white;
 }
   
   /* Mobile Menu */
