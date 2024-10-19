@@ -107,6 +107,8 @@ nav {
 .hero h1 {
     font-size: 3rem;
     color: gold;
+    background-color: black;
+    border-radius: 10px;
 }
   
 .hero p {
@@ -278,7 +280,8 @@ footer {
 .registration-form button {
     padding: 1rem;
     background-color: #3498db;
-    color: white;
+    color: black;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     border-radius: 5px;
