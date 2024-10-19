@@ -31,7 +31,7 @@ nav {
 }
   
 .nav-links a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1rem;
     margin-right: 30px;
@@ -67,7 +67,8 @@ nav {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 2.5rem;
-    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
   
 .contact-section p {
@@ -102,7 +103,8 @@ input, textarea {
 button {
     padding: 0.75rem;
     background-color: #3498db;
-    color: #fff;
+    color: black;
+    font-weight: bold;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -123,7 +125,7 @@ footer {
     background-color: #3498db;
     padding: 1rem;
     text-align: center;
-    color: #fff;
+    color: black;
 }
   
   /* Responsive Styles */

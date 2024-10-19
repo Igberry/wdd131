@@ -45,7 +45,8 @@ nav {
 }
   
 .nav-links a {
-    color: white;
+    color: black;
+    font-weight: bold;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -110,8 +111,9 @@ nav {
   
 #explore-btn {
     background-color: #3498db;
-    color: white;
+    color: black;
     padding: 1rem 2rem;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -125,7 +127,8 @@ nav {
 }
 .apply a {
     background-color: #3498db;
-    color: white;
+    color: black;
+    font-weight: bold;
     padding: 20px;
     border-radius: 5px;
 }
@@ -198,10 +201,11 @@ nav {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-  
+
 .contact button {
     background-color: #3498db;
-    color: white;
+    color: black;
+    font-weight: bold;
     border: none;
     padding: 1rem;
     cursor: pointer;
@@ -217,7 +221,7 @@ footer {
     padding: 1rem;
     background-color: #3498db;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .registration-form {
