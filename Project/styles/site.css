@@ -106,11 +106,16 @@ nav {
   
 .hero h1 {
     font-size: 3rem;
+    color: gold;
 }
   
 .hero p {
     margin: 1.5rem 0;
     font-size: 1.2rem;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
   
 #explore-btn {
