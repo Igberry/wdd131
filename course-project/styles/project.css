@@ -397,6 +397,7 @@ footer {
   
 .team-members {
     display: flex;
+    gap: 20px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -692,10 +693,12 @@ button:hover {
     .about-section h1 {
         font-size: 2rem;
     }
-    
+    .team-members {
+        display: block;
+    }
     .member img {
-        width: 120px;
-        height: 120px;
+        width: 250px;
+        height: 200px;
     }
     .courses-section h1 {
         font-size: 2rem;
