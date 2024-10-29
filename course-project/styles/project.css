@@ -382,59 +382,59 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     color: #666;
-  }
+}
   
-  .team {
+.team {
     text-align: center;
     margin-bottom: 3rem;
-  }
+}
   
-  .team h2 {
+.team h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: #333;
-  }
+}
   
-  .team-members {
+.team-members {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  }
+}
   
-  .member {
+.member {
     text-align: center;
-  }
+}
   
-  .member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
     margin-bottom: 1rem;
-  }
+}
   
-  .member h3 {
+.member h3 {
     font-size: 1.5rem;
     color: #333;
-  }
+}
   
-  .member p {
+.member p {
     font-size: 1rem;
     color: black;
-  }
+}
   
   /* Social Media Section */
-  .social-media {
+.social-media {
     text-align: center;
     margin-bottom: 3rem;
-  }
+}
   
-  .social-media h2 {
+.social-media h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
     color: #333;
-  }
+}
   
-  .social-icons {
+.social-icons {
     display: flex;
     justify-content: center;
     gap: 2rem;
