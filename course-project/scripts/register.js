@@ -37,7 +37,7 @@ const countries = [
   ];
   
 const sexes = ["Male", "Female" ];
-const courses = ["Web Development", "Mobile App Development", "Cloud Computing",  "Data Science", "Graphic Design", "Digital Marketing", "Cybersecurity", "Artificial Intelligence", "Blockchain Technology", "Project Management", "UI/UX Design"];
+const courses = ["Web Development", "Mobile App Development", "Cloud Computing",  "Data Science", "Graphic Design", "Digital Marketing", "Cybersecurity", "Artificial Intelligence", "Blockchain Technology", "Project Management"];
 
 // Function to populate dropdowns
 function populateDropdown(id, options) {
